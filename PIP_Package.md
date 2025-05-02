@@ -2,8 +2,6 @@
 
 EchoSwift is a powerful and flexible tool designed for benchmarking Large Language Model (LLM) inference. It allows users to measure and analyze the performance of LLM endpoints across various metrics, including token latency, throughput, and time to first token (TTFT).
 
-![EchoSwift](images/Echoswift.png)
-
 ## Features
 
 - Benchmark LLM inference across multiple Inference Servers
@@ -19,15 +17,13 @@ EchoSwift is a powerful and flexible tool designed for benchmarking Large Langua
   - Ollama
   - Llamacpp
   - NIMS
-
+  
 ## Performance metrics:
 
 The performance metrics captured for varying input and output tokens and parallel users while running the benchmark includes 
 - Latency (ms/token)
 - TTFT(ms)
 - Throughput(tokens/sec) 
-
-![metrics](images/metric.png)
 
 ## Installation
 
@@ -127,8 +123,3 @@ If you find our resource useful, please cite our paper:
   collection = {ICPE '24}
 }
 ```
-Refer [AMD_BUILD_GUIDE](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/user-guides/58669-amd-epyc-9004-ug-openshift.pdf) for detailed steps on LLM deployment on Red Hat Openshift Container Platform.
-
-## Support
-
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/echoswift/issues) on our GitHub repository.

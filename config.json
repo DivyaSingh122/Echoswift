@@ -1,0 +1,19 @@
+{
+    "_comment": "EchoSwift Configuration",
+    "out_dir": "testing/SUT_llama3.2-1b_48cores_run1",
+    "base_url": "http://10.86.18.6:8002/v1/completions",
+    "inference_server": "vLLM",
+    "model": "/llama3.2-1b",
+    "random_prompt": true,
+    "max_requests": 5,
+    "user_counts": [
+        20
+    ],
+    "input_tokens": [
+        32
+    ],
+    "output_tokens": [
+        256
+    ],
+    "optimal_user_count": 23
+}
